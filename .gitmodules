@@ -1,0 +1,9 @@
+[submodule "Programming_Logic"]
+	path = Programming_Logic
+	url = https://github.com/ulukas-dev/programming-logic.git
+[submodule "Learning"]
+	path = Learning
+	url = https://github.com/ulukas-dev/Learning.git
+[submodule "Porfolio"]
+	path = Porfolio
+	url = https://github.com/ulukas-dev/portfolio.git
