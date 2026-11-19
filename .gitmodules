@@ -4,6 +4,6 @@
 [submodule "Learning"]
 	path = Learning
 	url = https://github.com/ulukas-dev/Learning.git
-[submodule "Porfolio"]
+[submodule "Portfolio"]
 	path = Porfolio
 	url = https://github.com/ulukas-dev/portfolio.git
