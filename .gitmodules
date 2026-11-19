@@ -5,5 +5,5 @@
 	path = Learning
 	url = https://github.com/ulukas-dev/Learning.git
 [submodule "Portfolio"]
-	path = Portfolio
+	path = Porfolio
 	url = https://github.com/ulukas-dev/portfolio.git
