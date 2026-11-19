@@ -1,0 +1,146 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Segoe UI, sans-serif;
+        }
+
+        body {
+            background-image: url(../img/fundo2.jpg);
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+
+        .ladoCima {
+            background: #fff;
+            box-shadow: 0 2px 15px rgba(0, 0, 0, 0.08);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 18px 60px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .logo {
+            font-weight: 700;
+            font-size: 24px;
+            color: #2563eb;
+        }
+
+        .navLinks {
+            display: flex;
+            gap: 28px;
+        }
+
+        .ladoCima a {
+            color: #0f172a;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 15px;
+            transition: color 0.25s ease;
+        }
+
+        .ladoCima a:hover {
+            color: #2563eb;
+        }
+
+        .caixaGrande {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin: 50px 40px;
+            max-width: 860px;
+            width: 100%;
+            align-self: center;
+        }
+
+        .caixaGrande h1 {
+            font-size: 42px;
+            font-weight: 700;
+            color: #0f172a;
+            margin-bottom: 12px;
+            line-height: 1.2;
+        }
+
+        .caixaGrande p {
+            font-size: 19px;
+            font-weight: 600;
+            color: #334155;
+            margin-bottom: 40px;
+            max-width: 420px;
+        }
+
+        .links {
+            display: flex;
+            gap: 18px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 16px 34px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 17px;
+            min-width: 220px;
+            transition: all 0.3s ease;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .btn:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.18);
+        }
+
+        .Cliente {
+            background: #2563eb;
+            color: white;
+        }
+
+        .Empresa {
+            background: #0f172a;
+            color: white;
+        }
+
+        .vantagens {
+            display: flex;
+            gap: 35px;
+            margin-top: 100px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .vantagem {
+            display: flex;
+            gap: 10px;
+            font-size: 15px;
+            font-family: helvetica;
+            font-weight: bold;
+            color: #334155;
+            font-weight: 500;
+        }
+
+
+        footer {
+            text-align: center;
+            padding: 22px;
+            color:#fff;
+            font-size: 14px;
+            background:#111;
+            margin-top: auto;
+        }

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/CadatroEmpresa.css">
+    <title>Cadastrar Loja - LojaDaBanda</title>
+</head>
+<body>
+
+    <nav class="cabecalho">
+        <div class="logo">LojaDaBanda</div>
+        <div class="linksNav">
+            <a href="welcome.html">  Voltar</a>
+            <a href="Contato.html">Fale Conosco</a>
+            <a href="Sobre.html">Sobre Nós</a>
+        </div>
+    </nav>
+
+    <div class="caixaPrincipal">
+        <div class="card">
+
+            <h1>Cadastre sua Loja</h1>
+            <p>Preencha os dados abaixo. São apenas alguns passos rápidos.</p>
+
+            <div class="caixa2">
+                <h2>Dados da Empresa</h2>
+                <div class="campos">
+                    <div class="campo">
+                        <label>Nome da Loja *</label>
+                        <input type="text" placeholder="Ex: Loja do João">
+                    </div>
+                    <div class="campo">
+                        <label>NIF / Número de Contribuinte *</label>
+                        <input type="text" placeholder="123456789">
+                    </div>
+                    <div class="campo">
+                        <label>Tipo de Loja *</label>
+                        <select>
+                            <option value="">Selecione...</option>
+                            <option value="fisica">Loja Física</option>
+                            <option value="online">Apenas Online</option>
+                            <option value="hibrida">Física + Online</option>
+                        </select>
+                    </div>
+                    <div class="campo completo">
+                        <label>Descrição breve da sua loja</label>
+                        <textarea placeholder="Ex: Vendemos eletrónicos, moda e acessórios com os melhores preços..."></textarea>
+                    </div>
+                </div>
+            </div>
+
+            <div class="caixa2">
+                <h2>Contato</h2>
+                <div class="campos">
+                    <div class="campo">
+                        <label>Email da Loja *</label>
+                        <input type="email" placeholder="loja@Silvio.com">
+                    </div>
+                    <div class="campo">
+                        <label>Telefone *</label>
+                        <input type="tel" placeholder="+244 000 000 000">
+                    </div>
+                    <div class="campo">
+                        <label>WhatsApp (opcional)</label>
+                        <input type="tel" placeholder="+244 000 000 000">
+                    </div>
+                </div>
+            </div>
+
+            <div class="caixa2">
+                <h2>Endereço</h2>
+                <div class="campos">
+                    <div class="campo">
+                        <label>Província *</label>
+                        <select>
+                            <option value="Luanda">Luanda</option>
+                            <option value="Benguela">Benguela</option>
+                            <option value="Huambo">Huambo</option>
+                        </select>
+                    </div>
+                    <div class="campo">
+                        <label>Município / Cidade *</label>
+                        <input type="text" placeholder="Luanda">
+                    </div>
+                    <div class="campo full">
+                        <label>Morada completa *</label>
+                        <input type="text" placeholder="Rua, bairro, número">
+                    </div>
+                </div>
+            </div>
+
+            <div class="caixa2">
+                <h2>Dados Bancários</h2>
+                <div class="campos">
+                    <div class="campo">
+                        <label>Banco *</label>
+                        <select>
+                            <option value="">Selecione o banco...</option>
+                            <option value="BAI">BAI</option>
+                            <option value="BFA">BFA</option>
+                            <option value="BIC">BIC</option>
+                            <option value="BPC">BPC</option>
+                        </select>
+                    </div>
+                    <div class="campo">
+                        <label>IBAN *</label>
+                        <input type="text" placeholder="AO06 0000 0000 0000 0000 1234">
+                    </div>
+                    <div class="campo full">
+                        <label>Nome do titular da conta *</label>
+                        <input type="text" placeholder="Nome completo">
+                    </div>
+                </div>
+            </div>
+
+            <div class="botoes">
+                <button class="botao botaoVoltar">Voltar</button>
+                <a href="HomePageEmpresa.html" class="botao botaoCadastrar">Cadastrar Loja</a>
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="rodape">
+        <p>© 2026 LojaDaBanda - Todos os direitos reservados</p>
+    </footer>
+
+</body>
+</html>

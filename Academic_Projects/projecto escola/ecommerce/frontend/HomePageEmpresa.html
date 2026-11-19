@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/HomePageEmpresa.css">
+    <title>Painel da Loja - LojaDaBanda</title>
+</head>
+<body>
+
+    <nav class="cabecalho">
+        <div class="logo">LojaDaBanda</div>
+        <div class="infoUsuario">
+            <span>Minha Loja</span>
+        </div>
+    </nav>
+
+    <div class="menuLateral">
+        <a href="#" class="ativo">Dashboard</a>
+        <a href="#"> Meus Produtos</a>
+        <a href="#"> Pedidos</a>
+        <a href="#"> Clientes</a>
+        <a href="#"> Relatórios</a>
+        <a href="#"> Configurações</a>
+        <a href="#"> Sair</a>
+    </div>
+
+    <div class="conteudoPrincipal">
+        <h1 class="titulo-pagina">Bem-vindo de volta, Loja!</h1>
+        <p class="subtitulo">Aqui está o resumo do seu negócio hoje</p>
+
+        <div class="cartoesEstatisticos">
+            <div class="cartaoEstatistico">
+                <div class="numero">Kz 248.500</div>
+                <div class="descricao">Vendas hoje</div>
+            </div>
+            <div class="cartaoEstatistico">
+                <div class="numero">14</div>
+                <div class="descricao">Pedidos pendentes</div>
+            </div>
+            <div class="cartaoEstatistico">
+                <div class="numero">87</div>
+                <div class="descricao">Produtos ativos</div>
+            </div>
+            <div class="cartaoEstatistico">
+                <div class="numero">4.8</div>
+                <div class="descricao">Avaliação média</div>
+            </div>
+        </div>
+
+        <div class="outraCaixa">
+            <h2>Últimos Pedidos</h2>
+            <table class="tabela">
+                <thead>
+                    <tr>
+                        <th>Pedido</th>
+                        <th>Cliente</th>
+                        <th>Data</th>
+                        <th>Valor</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>#P-8742</td>
+                        <td>João Silva</td>
+                        <td>31 Mar 2026</td>
+                        <td>Kz 12.900</td>
+                        <td><span class="status pendente">Pendente</span></td>
+                    </tr>
+                    <tr>
+                        <td>#P-8741</td>
+                        <td>Maria Santos</td>
+                        <td>31 Mar 2026</td>
+                        <td>Kz 8.500</td>
+                        <td><span class="status enviado">Enviado</span></td>
+                    </tr>
+                    <tr>
+                        <td>#P-8740</td>
+                        <td>Pedro Costa</td>
+                        <td>30 Mar 2026</td>
+                        <td>Kz 45.000</td>
+                        <td><span class="status concluido">Concluído</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="outraCaixa">
+            <h2>Produtos em Destaque</h2>
+            <div class="destaquesProdutos">
+                <div class="itemDestaque">
+                    <img src="#">
+                    <p>Fone Bluetooth</p>
+                    <p class="precoDestaque">Kz 4.900</p>
+                </div>
+                <div class="itemDestaque">
+                    <img src="#">
+                    <p>Carregador Rápido</p>
+                    <p class="precoDestaque">Kz 2.200</p>
+                </div>
+                <div class="itemDestaque">
+                    <img src="#">
+                    <p>Capa para Celular</p>
+                    <p class="precoDestaque">Kz 1.800</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="addItems">
+            <button class="botao botaoAzul">Adicionar Novo Produto</button>
+            <button class="botao" style="background:#e2e8f0; color:#334155;">Ver Todos os Pedidos</button>
+        </div>
+    </div>
+
+    <footer class="rodape">
+        <p>© 2026 LojaDaBanda - Todos os direitos reservados</p>
+    </footer>
+
+</body>
+</html>

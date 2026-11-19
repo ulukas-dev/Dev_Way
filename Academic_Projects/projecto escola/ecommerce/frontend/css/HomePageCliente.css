@@ -1,0 +1,220 @@
+*{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Segoe UI, sans-serif;
+        }
+
+        body{
+            background:#f4f6f8;
+        }
+
+        .topoSite{
+            background:#fff;
+            box-shadow:0 2px 10px rgba(0,0,0,0.08);
+        }
+
+        .linhaTopo{
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            padding:15px 45px;
+        }
+
+        .logo{
+            font-weight:700;
+            font-size:22px;
+            color:#2563eb;
+        }
+
+        .busca{
+            position:relative;
+            width:320px;
+        }
+
+        .busca input{
+            width:100%;
+            padding:11px 42px 11px 14px;
+            border:1px solid #ddd;
+            border-radius:22px;
+        }
+
+        .busca button{
+
+            position:absolute;
+            right: 3px;
+            top: 25%;
+            transform:translateY(-50%);
+            border:none;
+            background:#000000b2;
+            color:#fff;
+            padding: 10px 13px;
+            border-radius:50%;
+        }
+
+        .linkUsuarios a{
+            margin-left:17px;
+            text-decoration:none;
+            color:#444;
+            font-size:14px;
+        }
+
+        .menu{
+            display:flex;
+            gap:18px;
+            padding:10px 45px;
+            border-top:1px solid #eee;
+        }
+
+        .menu a{
+            padding: 5px 7px;
+            text-decoration:none;
+            color:#333;
+            font-size:14px;
+        }
+
+        .menu a:hover {
+
+           background-color: #1111114b;
+           border-radius: 20px;
+
+        }
+
+        .bannerPrincipal{
+            height:280px;
+            background:url('img/fundo4.webp') center/cover no-repeat;
+        }
+
+        .bannerTexto{
+            background:rgba(0,0,0,0.45);
+            height:100%;
+            display:flex;
+            flex-direction:column;
+            justify-content:center;
+            align-items:center;
+            color:#fff;
+        }
+
+        .conteudoSite{
+            display:flex;
+            padding:20px 45px;
+        }
+
+        .lateral{
+            width:210px;
+            background:#fff;
+            padding:18px;
+            border-radius:10px;
+        }
+
+        .lateral li{
+            list-style:none;
+            padding:9px;
+            border-radius:6px;
+            cursor:pointer;
+            font-size:14px;
+        }
+
+        .lateral li:hover{
+            background:#2563eb;
+            color:#fff;
+        }
+
+        .conteudo{
+            flex:1;
+            margin-left:20px;
+        }
+
+        .gridTopo{
+            display:grid;
+            grid-template-columns:2fr 1fr 1fr;
+            grid-template-rows:200px 200px;
+            gap:13px;
+            margin-bottom:25px;
+        }
+
+        .destaque{
+            grid-row:1 / span 2;
+            position:relative;
+        }
+
+        .banner-menor{
+            grid-column:2 / span 2;
+            position:relative;
+        }
+
+        .gridTopo img{
+            width:100%;
+            height:100%;
+            object-fit:cover;
+            border-radius:10px;
+        }
+
+        .txt{
+            position:absolute;
+            bottom:10px;
+            left:10px;
+            color:#fff;
+        }
+
+        .mini{
+            background:#fff;
+            border-radius:10px;
+            overflow:hidden;
+            text-align:center;
+            box-shadow:0 3px 10px rgba(0,0,0,0.05);
+        }
+
+        .mini img{
+            width:100%;
+            height:100%;
+            object-fit:cover;
+        }
+
+        .mini p{
+            padding:10px;
+            font-size:14px;
+        }
+
+        .produtos{
+            display:grid;
+            grid-template-columns:repeat(auto-fill,minmax(200px,1fr));
+            gap:18px;
+        }
+
+        .card{
+            background:#fff;
+            padding:14px;
+            border-radius:10px;
+            text-align:center;
+            box-shadow:0 4px 12px rgba(0,0,0,0.05);
+            transition:0.2s;
+        }
+
+        .card:hover{
+            transform:translateY(-3px);
+        }
+
+        .card img{
+            width:100%;
+            margin-bottom:10px;
+        }
+
+        button{
+            margin-top:10px;
+            padding:9px 13px;
+            border:none;
+            border-radius:20px;
+            background:#2563eb;
+            color:#fff;
+        }
+
+        .rodape{
+            background:#111;
+            color:#fff;
+            display:flex;
+            justify-content:space-around;
+            padding:30px;
+            margin-top:40px;
+           font-size:14px;
+        }

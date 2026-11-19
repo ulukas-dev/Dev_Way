@@ -1,0 +1,151 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Segoe UI, sans-serif;
+        }
+
+        body {
+            background: #f4f6f8;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .cabecalho {
+            background: #fff;
+            box-shadow: 0 2px 15px rgba(0, 0, 0, 0.08);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 18px 60px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .logo {
+            font-weight: 700;
+            font-size: 24px;
+            color: #2563eb;
+        }
+
+        .linksNav {
+            display: flex;
+            gap: 28px;
+        }
+
+        .cabecalho a {
+            color: #0f172a;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 15px;
+            transition: color 0.25s ease;
+        }
+
+        .cabecalho a:hover {
+            color: #2563eb;
+        }
+
+        .caixaPrincipal {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 40px 20px;
+        }
+
+        .card {
+            background: #fff;
+            width: 100%;
+            max-width: 420px;
+            border-radius: 20px;
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+            padding: 50px 40px;
+            text-align: center;
+        }
+
+        .card h1 {
+            font-size: 28px;
+            font-weight: 700;
+            color: #0f172a;
+            margin-bottom: 8px;
+        }
+
+        .card p {
+            color: #64748b;
+            margin-bottom: 35px;
+            font-size: 16px;
+        }
+
+        .campo {
+            margin-bottom: 22px;
+            text-align: left;
+        }
+
+        .campo label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #0f172a;
+            font-size: 15px;
+        }
+
+        .campo input {
+            width: 100%;
+            padding: 14px 18px;
+            border: 2px solid #e2e8f0;
+            border-radius: 12px;
+            font-size: 16px;
+            transition: all 0.25s ease;
+        }
+
+        .campo input:focus {
+            border-color: #2563eb;
+            box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.15);
+            outline: none;
+        }
+
+        .botao {
+            width: 100%;
+            padding: 16px;
+            background: #2563eb;
+            color: white;
+            border: none;
+            border-radius: 50px;
+            font-size: 17px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-top: 10px;
+        }
+
+        .botao:hover {
+            background: #1e40af;
+            transform: translateY(-3px);
+        }
+
+        .textoLink {
+            margin-top: 25px;
+            font-size: 15px;
+            color: #64748b;
+        }
+
+        .textoLink a {
+            color: #2563eb;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .textoLink a:hover {
+            text-decoration: underline;
+        }
+
+        .rodape {
+            text-align: center;
+            padding: 22px;
+            font-size: 14px;
+            background:#111;
+            color:#fff;
+            margin-top: auto;
+        }
